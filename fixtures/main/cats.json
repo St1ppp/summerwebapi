@@ -1,0 +1,26 @@
+[
+    {
+        "model": "main.category",
+        "pk": 1,
+        "fields": {
+            "name": "Видеокарты",
+            "slug": "videokarty"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 2,
+        "fields": {
+            "name": "Процессоры",
+            "slug": "processory"
+        }
+    },
+    {
+        "model": "main.category",
+        "pk": 3,
+        "fields": {
+            "name": "Оперативная память",
+            "slug": "operativnaya_pamyat"
+        }
+    }
+]

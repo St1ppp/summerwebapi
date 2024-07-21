@@ -1,0 +1,170 @@
+[
+    {
+        "model": "main.product",
+        "pk": 1,
+        "fields": {
+            "name": "RTX 4090",
+            "slug": "rtx-4090",
+            "description": "Супер крутая видеокарта, лучшее, что есть",
+            "image": "Product_images/rtx-4090.png",
+            "price": "2000.00",
+            "discount": "5.00",
+            "quantity": 9,
+            "category": 1
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 2,
+        "fields": {
+            "name": "i9-14900k",
+            "slug": "i9-14900k",
+            "description": "Мега гига процессор",
+            "image": "Product_images/i9-14900k.png",
+            "price": "1000.00",
+            "discount": "0.00",
+            "quantity": 30,
+            "category": 2
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 3,
+        "fields": {
+            "name": "Crusial huistiks DDR5 16gb",
+            "slug": "crusial-huistiks-DDR5-16gb",
+            "description": "невъебаться быстрая память",
+            "image": "Product_images/crucial-huistiks.png",
+            "price": "400.00",
+            "discount": "0.00",
+            "quantity": 40,
+            "category": 3
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 4,
+        "fields": {
+            "name": "RTX 4080",
+            "slug": "rtx-4080",
+            "description": "Отличная видеокарта для гейминга и работы",
+            "image": "Product_images/placeholder.png",
+            "price": "1500.00",
+            "discount": "10.00",
+            "quantity": 15,
+            "category": 1
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 5,
+        "fields": {
+            "name": "RX 6900 XT",
+            "slug": "rx-6900-xt",
+            "description": "Высокопроизводительная видеокарта от AMD",
+            "image": "Product_images/placeholder.png",
+            "price": "1200.00",
+            "discount": "8.00",
+            "quantity": 20,
+            "category": 1
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 6,
+        "fields": {
+            "name": "RTX 4070 Ti",
+            "slug": "rtx-4070-ti",
+            "description": "Мощная видеокарта для всех современных игр",
+            "image": "Product_images/placeholder.png",
+            "price": "1000.00",
+            "discount": "12.00",
+            "quantity": 25,
+            "category": 1
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 7,
+        "fields": {
+            "name": "i7-13700k",
+            "slug": "i7-13700k",
+            "description": "Высокопроизводительный процессор для всех задач",
+            "image": "Product_images/placeholder.png",
+            "price": "700.00",
+            "discount": "0.00",
+            "quantity": 35,
+            "category": 2
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 8,
+        "fields": {
+            "name": "Ryzen 9 7900X",
+            "slug": "ryzen-9-7900x",
+            "description": "Мощный процессор от AMD",
+            "image": "Product_images/placeholder.png",
+            "price": "600.00",
+            "discount": "5.00",
+            "quantity": 40,
+            "category": 2
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 9,
+        "fields": {
+            "name": "i5-12600k",
+            "slug": "i5-12600k",
+            "description": "Отличный процессор для гейминга и работы",
+            "image": "Product_images/placeholder.png",
+            "price": "400.00",
+            "discount": "0.00",
+            "quantity": 50,
+            "category": 2
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 10,
+        "fields": {
+            "name": "Kingston Fury DDR5 32GB",
+            "slug": "kingston-fury-ddr5-32gb",
+            "description": "Быстрая и надежная оперативная память",
+            "image": "Product_images/placeholder.png",
+            "price": "300.00",
+            "discount": "0.00",
+            "quantity": 60,
+            "category": 3
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 11,
+        "fields": {
+            "name": "Corsair Vengeance LPX 16GB",
+            "slug": "corsair-vengeance-lpx-16gb",
+            "description": "Популярная оперативная память для геймеров",
+            "image": "Product_images/placeholder.png",
+            "price": "200.00",
+            "discount": "5.00",
+            "quantity": 70,
+            "category": 3
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 12,
+        "fields": {
+            "name": "G.Skill Trident Z Neo 32GB",
+            "slug": "g-skill-trident-z-neo-32gb",
+            "description": "Оперативная память с высоким потенциалом разгона",
+            "image": "Product_images/placeholder.png",
+            "price": "350.00",
+            "discount": "0.00",
+            "quantity": 80,
+            "category": 3
+        }
+    }
+]
