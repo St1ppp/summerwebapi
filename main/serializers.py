@@ -1,4 +1,3 @@
-from dataclasses import field
 from django.contrib.auth.models import User
 from rest_framework import serializers
 from .models import Product, Category
@@ -26,3 +25,8 @@ class UserRegSerializer(serializers.ModelSerializer):
         user.set_password(validated_data['password'])
         user.save()
         return user
+    
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = '__all__'

@@ -1,13 +1,13 @@
-from django.shortcuts import render
-from rest_framework import generics, viewsets, status
+from django.contrib.auth.models import User
+from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import IsAdminUser
 
 from .permissions import IsAdminOrReadOnly
 
 from .models import Product, Category
-from .serializers import ProductSerializer, CategorySerializer, UserRegSerializer
+from .serializers import ProductSerializer, CategorySerializer, UserRegSerializer, UserSerializer
 
 
 
@@ -30,3 +30,8 @@ class UserRegistration(APIView):
             serializer.save()
             return Response({"message": "User created successfully"}, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    permission_classes = (IsAdminUser,)
