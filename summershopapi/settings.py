@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'apidb',
         'USER': 'admin',
         'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
