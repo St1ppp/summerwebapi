@@ -44,8 +44,9 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'main',
+    'goods',
     'cart',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -88,7 +89,7 @@ DATABASES = {
         'NAME': 'apidb',
         'USER': 'admin',
         'PASSWORD': 'root',
-        'HOST': 'db',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }

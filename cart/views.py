@@ -4,7 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 
 from .models import Cart
 from .serializers import CartSerializer
-from main.models import Product
+from goods.models import Product
 
 
 class CartViewSet(viewsets.ModelViewSet):

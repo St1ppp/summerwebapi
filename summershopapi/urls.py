@@ -20,18 +20,20 @@ from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from rest_framework import routers
 
-from main.views import ProductViewSet, CategoryViewSet, UserRegistration, UserViewSet
+from cart.views import CartViewSet
+from goods.views import ProductViewSet, CategoryViewSet
+from users.views import UserRegistration, UserViewSet
 
 router = routers.SimpleRouter()
 router.register(r"products" ,ProductViewSet)
 router.register(r'categories', CategoryViewSet)
 router.register(r'users', UserViewSet)
+router.register(r"carts" , CartViewSet, basename="carts")
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    path('api/', include('cart.urls')),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/register/', UserRegistration.as_view(), name='user-registration'),

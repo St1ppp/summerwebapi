@@ -1,6 +1,6 @@
 [
     {
-        "model": "main.category",
+        "model": "goods.category",
         "pk": 1,
         "fields": {
             "name": "Видеокарты",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "main.category",
+        "model": "goods.category",
         "pk": 2,
         "fields": {
             "name": "Процессоры",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "main.category",
+        "model": "goods.category",
         "pk": 3,
         "fields": {
             "name": "Оперативная память",
